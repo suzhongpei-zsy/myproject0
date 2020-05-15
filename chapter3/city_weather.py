@@ -28,7 +28,7 @@ class HeFeng():
 
     def get_citys(self):
         html = requests.get(self.url)
-        html.encoding = 'utf8'
+        html.encoding = self.encoding
         cities = html.text.split('\n')
         return cities[6:]
 
