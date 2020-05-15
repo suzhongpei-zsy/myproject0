@@ -26,5 +26,6 @@ class MyTestCase(unittest.TestCase):
         hefengDb=HefengDb()
         hefengDb.save(each)
 
+
 if __name__ == '__main__':
     unittest.main()
