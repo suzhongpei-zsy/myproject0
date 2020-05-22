@@ -1,4 +1,7 @@
+import time
+
 import requests
+
 
 
 
@@ -13,8 +16,19 @@ class HeFeng():
         dict=self.get_weather(city_code)
         print(dict["HeWeather6"][0]['now'])
 
+    def get_all_weather(self,count_of_citys):
+        codes=self.get_city_code()
+        weathers=[]
+        i=0
+        while i<count_of_citys:
+            each=self.get_weather(next(codes))
+            print(each)
+            weathers.append(each)
+            i=i+1
+        return weathers
+
     def get_weather(self,city_code):
-        #url="https://free-api.heweather.net/s6/weather/now?location="+city_code+"&key=7e71657d03174bbe9f00cb25bc873327"
+        time.sleep(1)
         url=self.pre_requests+city_code+self.sub_requests
         info=requests.get(url)
         info.encoding=self.encoding
