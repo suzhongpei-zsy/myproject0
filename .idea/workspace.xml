@@ -2,12 +2,30 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="182029ba-23cf-4b8d-857c-8928b54189c9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/chapter5/stockSpider/scrapy.cfg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter5/stockSpider/stockSpider/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter5/stockSpider/stockSpider/items.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter5/stockSpider/stockSpider/middlewares.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter5/stockSpider/stockSpider/pipelines.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter5/stockSpider/stockSpider/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter5/stockSpider/stockSpider/spiders/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter5/stockSpider/stockSpider/spiders/stockStar.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scrapy.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/qianduan0.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/qianduan0.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Unit Test" />
+        <option value="Python Script" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -21,10 +39,32 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.stockStar">
+    <configuration name="Unittests in test_city_weather_db.py" type="PythonConfigurationType" factoryName="Python">
+      <module name="qianduan0" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/.." />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chapter3/test_city_weather_db.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <module name="qianduan0" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -67,9 +107,102 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="save_weathers" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="qianduan0" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="E:\learn\qianduan\venv\Scripts\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/.." />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chapter3/save_weathers.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="stockStar" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="qianduan0" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="E:\learn\qianduan\venv\Scripts\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/.." />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chapter5/stockSpider/stockSpider/spiders/stockStar.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests for get_city.CityWeatherTest.test_get_city_code" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="qianduan0" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/chapter3" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;get_city.CityWeatherTest.test_get_city_code&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests in get_city.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="qianduan0" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/chapter3" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/chapter3/get_city.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests in test_city_weather.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="qianduan0" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/chapter3" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/chapter3/test_city_weather.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.stockStar" />
+        <item itemvalue="Python.save_weathers" />
+        <item itemvalue="Python tests.Unittests in test_city_weather.py" />
+        <item itemvalue="Python tests.Unittests in get_city.py" />
+        <item itemvalue="Python tests.Unittests for get_city.CityWeatherTest.test_get_city_code" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
-    <configuration />
+    <configuration>C:\Users\苏忠沛\AppData\Roaming\Subversion</configuration>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -86,33 +219,80 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="223" y="67" width="1089" height="711" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1587728461620" />
+    <state x="565" y="207" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1591060864888">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="565" y="207" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1591060864888" />
+    <state x="500" y="0" key="#test_city_weather_db" timestamp="1589522084329">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="500" y="0" key="#test_city_weather_db/0.0.1536.824@0.0.1536.824" timestamp="1589522084329" />
     <state x="548" y="178" key="FileChooserDialogImpl" timestamp="1587728447979">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="548" y="178" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1587728447979" />
-    <state width="1515" height="210" key="GridCell.Tab.0.bottom" timestamp="1588038667360">
+    <state width="838" height="126" key="GridCell.Tab.0.bottom" timestamp="1591062248758">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1588038667360" />
-    <state width="1515" height="210" key="GridCell.Tab.0.center" timestamp="1588038667358">
+    <state width="838" height="126" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1591062248758" />
+    <state width="838" height="126" key="GridCell.Tab.0.center" timestamp="1591062248758">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1588038667358" />
-    <state width="1515" height="210" key="GridCell.Tab.0.left" timestamp="1588038667357">
+    <state width="838" height="126" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1591062248758" />
+    <state width="838" height="126" key="GridCell.Tab.0.left" timestamp="1591062248757">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1588038667357" />
-    <state width="1515" height="210" key="GridCell.Tab.0.right" timestamp="1588038667360">
+    <state width="838" height="126" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1591062248757" />
+    <state width="838" height="126" key="GridCell.Tab.0.right" timestamp="1591062248758">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1588038667360" />
-    <state x="270" y="54" key="SettingsEditor" timestamp="1587729118692">
+    <state width="838" height="126" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1591062248758" />
+    <state width="838" height="205" key="GridCell.Tab.1.bottom" timestamp="1590454967731">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="270" y="54" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1587729118692" />
-    <state x="449" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1588033506438">
+    <state width="838" height="205" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1590454967731" />
+    <state width="838" height="205" key="GridCell.Tab.1.center" timestamp="1590454967731">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="449" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1588033506438" />
+    <state width="838" height="205" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1590454967731" />
+    <state width="838" height="205" key="GridCell.Tab.1.left" timestamp="1590454967731">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="838" height="205" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1590454967731" />
+    <state width="838" height="205" key="GridCell.Tab.1.right" timestamp="1590454967731">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="838" height="205" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1590454967731" />
+    <state x="131" y="52" width="916" height="715" key="SettingsEditor" timestamp="1592227218690">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="131" y="52" width="916" height="715" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1592227218690" />
+    <state x="449" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1592219331343">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="449" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1592219331343" />
+    <state x="377" y="106" key="com.intellij.javaee.MapExternalResourceDialog" timestamp="1590127654623">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="377" y="106" key="com.intellij.javaee.MapExternalResourceDialog/0.0.1536.824@0.0.1536.824" timestamp="1590127654623" />
+    <state x="560" y="102" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1589521571250">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="560" y="102" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1536.824@0.0.1536.824" timestamp="1589521571250" />
+    <state x="430" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1592219941604">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="430" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1592219941604" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/chapter3/save_weathers.py</url>
+          <line>4</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
